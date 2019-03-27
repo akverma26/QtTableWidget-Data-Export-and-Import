@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>658</width>
+    <height>394</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>631</width>
+      <height>321</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>658</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuImport_Data">
+    <property name="title">
+     <string>Import Data</string>
+    </property>
+    <addaction name="actionfrom_CSV"/>
+   </widget>
+   <widget class="QMenu" name="menuExport_Table">
+    <property name="title">
+     <string>Export Table</string>
+    </property>
+    <addaction name="actionto_CSV"/>
+   </widget>
+   <widget class="QMenu" name="menuTable_View">
+    <property name="title">
+     <string>Table View</string>
+    </property>
+    <addaction name="actionIncrease_Table"/>
+    <addaction name="actionDecrease_Row"/>
+    <addaction name="actionIncrease_Column"/>
+    <addaction name="actionDecrease_Column"/>
+   </widget>
+   <widget class="QMenu" name="menuPandas_Data_Frame">
+    <property name="title">
+     <string>Pandas Data Frame</string>
+    </property>
+    <addaction name="actionCreate_and_Export_as_CSV"/>
+   </widget>
+   <addaction name="menuImport_Data"/>
+   <addaction name="menuExport_Table"/>
+   <addaction name="menuTable_View"/>
+   <addaction name="menuPandas_Data_Frame"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionfrom_CSV">
+   <property name="text">
+    <string>from CSV</string>
+   </property>
+  </action>
+  <action name="actionto_CSV">
+   <property name="text">
+    <string>to CSV</string>
+   </property>
+  </action>
+  <action name="actionIncrease_Table">
+   <property name="text">
+    <string>Increase Row</string>
+   </property>
+  </action>
+  <action name="actionDecrease_Row">
+   <property name="text">
+    <string>Decrease Row</string>
+   </property>
+  </action>
+  <action name="actionIncrease_Column">
+   <property name="text">
+    <string>Increase Column</string>
+   </property>
+  </action>
+  <action name="actionDecrease_Column">
+   <property name="text">
+    <string>Decrease Column</string>
+   </property>
+  </action>
+  <action name="actionCreate_DataFrame_from_Table">
+   <property name="text">
+    <string>Create DataFrame from Table</string>
+   </property>
+  </action>
+  <action name="actionCreate_and_Export_as_CSV">
+   <property name="text">
+    <string>Create and Export as CSV</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
