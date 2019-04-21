@@ -26,7 +26,9 @@ python3 mainwindow.py
 
 **GUI is created using QtCreator** and then `mainwindow.ui` file is converted into python version using following command
 
-```pyuic5 -x mainwindow.ui -o mainwindow.py```
+```
+pyuic5 -x mainwindow.ui -o mainwindow.py
+```
 
 and then all the functionality added later using the documentation of PyQt.
 
