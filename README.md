@@ -1,22 +1,25 @@
 # QtTableWidget-Data-Export-and-Import
 Export and Import Data from and to Table in the GUI using QT5 (just for Demo Purpose)
 
-#Dependencies
+**Dependencies**
 
 Required Python Modules:
 
-csv
+```python
+import csv
 
-pandas
+import pandas
 
-fromm PyQt5 -> QtCore, QtGui, QtWidgets
+from PyQt5 -> QtCore, QtGui, QtWidgets
 
-sys
-
+import sys
+```
 just Run mainwindow.py using following command
 
+```
 python mainwindow.py
-
-or
-
+```
+OR
+```
 python3 mainwindow.py
+```
