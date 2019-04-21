@@ -33,3 +33,5 @@ and then all the functionality added later using the documentation of PyQt.
 ![PyQt Documentation of All Classes](https://www.riverbankcomputing.com/static/Docs/PyQt4/classes.html)
 
 ![Documentation of All C++ Qt Classes](https://doc.qt.io/qt-5/classes.html)
+
+![Qt](https://doc.qt.io/qt-5/images/used-in-examples/drilldown/images/qt-creator.png)
